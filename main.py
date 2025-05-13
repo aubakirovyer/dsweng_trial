@@ -14,6 +14,10 @@ def main():
     print(adder(10,10))
 
     print(adder(100, 200))
+    printer()
+
+def printer():
+    print("Hello from main branch")
 
 if __name__ == "__main__":
     main()
