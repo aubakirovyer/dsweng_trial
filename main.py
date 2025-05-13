@@ -12,5 +12,7 @@ def main():
 
     print(adder(5,3))
 
+    print(adder(100, 200))
+
 if __name__ == "__main__":
     main()
