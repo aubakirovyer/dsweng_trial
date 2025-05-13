@@ -18,6 +18,7 @@ def main():
 
 def printer():
     print("Hello from main branch")
+    print("Hello from feature branch")
 
 if __name__ == "__main__":
     main()
