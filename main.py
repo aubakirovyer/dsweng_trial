@@ -11,6 +11,7 @@ def main():
     print(f"Hello, World2! Today's formatter date is {today_formatted}")
 
     print(adder(5,3))
+    print(adder(10,10))
 
 if __name__ == "__main__":
     main()
