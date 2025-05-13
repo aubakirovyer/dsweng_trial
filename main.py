@@ -1,4 +1,5 @@
 from datetime import datetime
+from add import adder
 
 def main():
     today = datetime.now()
@@ -9,7 +10,7 @@ def main():
     today_formatted = today.strftime("%Y-%m-%d %H:%M")
     print(f"Hello, World2! Today's formatter date is {today_formatted}")
 
-    print(5+3)
+    print(adder(5,3))
 
 if __name__ == "__main__":
     main()
