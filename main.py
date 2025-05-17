@@ -16,6 +16,8 @@ def main():
     print(adder(100, 200))
     printer()
     # comment for commit of adding a tag
+    print(type(printer()))
+    print(type(today))
 
 def printer():
     print("Hello from main branch")
