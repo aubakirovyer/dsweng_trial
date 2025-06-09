@@ -54,3 +54,28 @@ for pair in curly_dict.items():
 if "name" in curly_dict and curly_dict["name"]:
     print(f"Name exists and is not empty: {curly_dict['name']}")
 
+# Dictionary manipulations
+print(curly_dict.get("name"))
+print(curly_dict.get("surname", "Joq esnarse"))  # Returns "Not found" if key does not exist
+
+print("\n")
+for pair in curly_dict.items():
+    print(pair)
+
+print("\n")
+for key in curly_dict.keys():
+    print(key)
+
+print("\n")
+for value in curly_dict.values():
+    print(value)
+
+
+curly_dict2 = {"surname": "Arth",
+               "age": 22,
+               "cities": ("Shymkent", "Astana", "Almaty")
+               }
+
+curly_dict.update(curly_dict2)
+print("\nUpdated dictionary:")
+print(curly_dict)
